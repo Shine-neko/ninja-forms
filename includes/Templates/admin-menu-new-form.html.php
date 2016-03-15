@@ -88,19 +88,21 @@
 
 <script id="nf-tmpl-main-content-fields-empty" type="text/template">
     <div class="nf-fields-empty">
-        <h3>Add form fields</h3>
-        <p>Get started by adding your first form field. Just click the plus and select the fields you want. It’s that easy.</p>
         <h3>Start from a template</h3>
         <label for="form_templates" class="nf-select">
-        <select id="form_templates" class="setting">
-            <option value="" selected="selected">Contact Form</option>
-            <option value="">Quote Request</option>
-            <option value="">Event Registration</option>
-            <option value="">Job Application</option>
-            <option value="">Support Request</option>
-        </select>
-        <div></div>
-    </label>
+            <select id="form_templates" class="setting">
+                <option value="" selected="selected">Contact Form</option>
+                <option value="">Quote Request</option>
+                <option value="">Event Registration</option>
+                <option value="">Job Application</option>
+                <option value="">Support Request</option>
+            </select>
+            <div></div>
+        </label>
+        <h3>Add form fields</h3>
+        <p>Get started by adding your first form field. Just click the plus and select the fields you want. It’s that easy.</p>
+
+
     </div>
 </script>
 
