@@ -42,7 +42,7 @@ add_action( 'plugins_loaded', 'nf_check_post' );
  */
 
 function ninja_forms_session_class_setup(){
-	$cache = Ninja_Forms()->session->get( 'nf_cache' );
+	$cache = Ninja_Forms()->session()->get( 'nf_cache' );
 	if ( $cache && ! is_admin() ) {
 		add_action( 'init', 'ninja_forms_setup_processing_class', 5 );
 	}
